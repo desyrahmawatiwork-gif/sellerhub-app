@@ -1,17 +1,9 @@
+import Sidebar from "@/app/components/Sidebar";
+
 export default function DashboardPage() {
   return (
     <main className="min-h-screen bg-pink-50 flex">
-      <aside className="w-64 bg-white shadow-lg p-6">
-        <h1 className="text-3xl font-bold text-pink-600 mb-10">SellerHub</h1>
-
-        <nav className="flex flex-col gap-4 text-gray-700">
-          <a href="#" className="hover:text-pink-600">Dashboard</a>
-          <a href="#" className="hover:text-pink-600">Reseller</a>
-          <a href="#" className="hover:text-pink-600">Affiliate</a>
-          <a href="#" className="hover:text-pink-600">Orders</a>
-          <a href="#" className="hover:text-pink-600">Analytics</a>
-        </nav>
-      </aside>
+      <Sidebar />
 
       <section className="flex-1 p-10">
         <h2 className="text-4xl font-bold text-gray-800 mb-10">
